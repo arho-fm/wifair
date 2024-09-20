@@ -1,0 +1,137 @@
+.btn {
+  background-color: #6482f0;
+  border: 0px;
+  padding: 18px;
+  display: inline-block;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 18px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #4169f0;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+  width: 500px;
+  height: 50px;
+  margin: 0 auto;
+  vertical-align: left;
+}
+
+.btn:hover {
+	box-shadow: inset 500px 0 0 0 #0f3cbe;
+}
+
+header {
+  text-align: center;
+  margin-left: auto;
+margin-right: auto;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 500px;
+  height: 975px; /* only for demonstration, should be removed */
+  background: #fff;
+  padding: 0;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding-left: 20px;
+  width: 1000px;
+  height: 750; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+
+.top {
+vertical-align: text-top;}
+
+.bottom {
+position: absolute;
+bottom: 10px;
+width: 450px;
+height: 260px;
+}
+
+.btn2 {
+  background-color: #0f3cbe;
+  border: 0px;
+  padding: 18px;
+  display: inline-block;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 18px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+  width: 500px;
+  height: 50px;
+  margin: 0 auto;
+  vertical-align: left;
+}
+
+.btn3 {
+  color: #000;
+  float: left;
+  background-color: transparent;
+  border: 1px solid #000;
+  border-radius: 20px;
+  border-spacing: 80px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  width: 290px;
+  height: 290px;
+}
+
+.btn3:hover {
+  transform: scale(1.2);
+}
+
+.table1{
+  border-spacing: 2.5em 2.5em;
+}
+
+.btn4 {
+  background-color: #F54C4C;
+  border: 0px;
+  padding: 18px;
+  display: inline-block;
+  font-size: 50px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #DB5E5E;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+  width: 300px;
+  height: 100px;
+  margin: 0 auto;
+  vertical-align: left;
+}
+
+.btn4:hover {
+	box-shadow: inset 500px 0 0 0 #BD2323;
+}
